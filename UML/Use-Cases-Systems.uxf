@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>620</x>
+      <y>210</y>
+      <w>180</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>Job Interview Scheduler
+halign=left
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>280</x>
+      <y>260</y>
+      <w>130</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Workday
+valign=center
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>840</x>
+      <y>230</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Naukri
+valign=center
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>840</x>
+      <y>300</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Monster
+valign=center
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>270</y>
+      <w>240</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Org hierarchy Sync</panel_attributes>
+    <additional_attributes>10.0;20.0;220.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>320</y>
+      <w>240</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Job Requisition sync</panel_attributes>
+    <additional_attributes>10.0;20.0;220.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>640</x>
+      <y>570</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Outlook 
+valign=center
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>700</x>
+      <y>450</y>
+      <w>120</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Calendar Sync</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+</diagram>
