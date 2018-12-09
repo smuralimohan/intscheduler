@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>26</x>
+      <y>325</y>
+      <w>338</w>
+      <h>273</h>
+    </coordinates>
+    <panel_attributes>Core::VotingInterview
+
+--
+_-vote: Vote_
+_-rounds: List&lt;VotingInterviewRound&gt;_
+--
++getVotes(): Vote
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>169</x>
+      <y>26</y>
+      <w>338</w>
+      <h>221</h>
+    </coordinates>
+    <panel_attributes>Core::Interview
+--
+-id: Long {composite}
+-startDate: LocalDate
+--endDate: EndDate
+_-rounds: List&lt;InterviewRound&gt;_
+--
++getStartDate(): LocalDate
++getEndDate(): LocalDate
+  </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>429</x>
+      <y>325</y>
+      <w>312</w>
+      <h>273</h>
+    </coordinates>
+    <panel_attributes>Core::RatingInterview
+
+--
+_-rating: Rating_
+_-rounds: List&lt;RatingInterviewRound&gt;_
+--
++getRatings(): Rating
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>325</x>
+      <y>234</y>
+      <w>299</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;210.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>143</x>
+      <y>234</y>
+      <w>208</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+</diagram>

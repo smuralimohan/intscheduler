@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>39</x>
+      <y>52</y>
+      <w>702</w>
+      <h>858</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+Core::HiringProcess
+{Some Properties}
+--
+-id: Long {composite}
+-startDate: LocalDate
+-lastUpdatedDate: LocalDate
+_-candidate: Candidate_
+_-status: HiringStatus{Pending Setup, Pending Interviews, Pending Decision, Rejected, Accepted, On-Hold, Offer Released, Offer Accepted, Onboarded. }_
+_-interviewPanel: InterviewPanel_
+_-recruitmentPanel: RecrutimentPanel_
+_-jobReq: JobReq_
+_-interview: Interview_
+--
+#Operation(i: int): int
+/+AbstractOperation()/
+--
+Invariants/Constraints
+-- Candidate cannot be null
+-- JobReq cannot be null
+-- InterviewPanel must have the hiring manager.
+-- Recruitment panel must have must at least one member.
+-- Before closing the interview, ensure that the interview is in Accepted/Rejected status
+-- When all the rounds are done, send notifications to 
+hiring manager about closing the interview process. </panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
