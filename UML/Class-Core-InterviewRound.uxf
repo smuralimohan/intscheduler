@@ -65,7 +65,7 @@ _-rating: Rating_(scale, step, value)
       <w>338</w>
       <h>221</h>
     </coordinates>
-    <panel_attributes>Core::InterviewRound
+    <panel_attributes>/Core::InterviewRound/
 --
 -id: Long {composite}
 -time: LocalDateTime
@@ -76,6 +76,33 @@ _-rating: Rating_(scale, step, value)
 +getFeedback(): String
 +setFeedback(String feedback): void
   </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>65</x>
+      <y>598</y>
+      <w>1066</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>Notes:
+* Interview Type - Behaviorial/Technical etc must be metadata driven.
+* We need to have metadata tables too to some extent.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLInterface</id>
+    <coordinates>
+      <x>884</x>
+      <y>52</y>
+      <w>234</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Core::MetadataBase
+--
+loadMetadataIntoCache()
+getMetaData()</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

@@ -27,11 +27,11 @@ _-rounds: List&lt;VotingInterviewRound&gt;_
       <w>338</w>
       <h>221</h>
     </coordinates>
-    <panel_attributes>Core::Interview
+    <panel_attributes>/Core::Interview/
 --
 -id: Long {composite}
--startDate: LocalDate
---endDate: EndDate
+-startDate: Optional&lt;LocalDate&gt;
+--endDate: Optional&lt;LocalDate&gt;
 _-rounds: List&lt;InterviewRound&gt;_
 --
 +getStartDate(): LocalDate
@@ -53,7 +53,7 @@ _-rounds: List&lt;InterviewRound&gt;_
 _-rating: Rating_
 _-rounds: List&lt;RatingInterviewRound&gt;_
 --
-+getRatings(): Rating
++getRating(): Rating
 </panel_attributes>
     <additional_attributes/>
   </element>
